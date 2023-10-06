@@ -28,4 +28,23 @@ def process_files():
             if polygon_count >= polygon_threshold:
                 result_label.config(text=f"{filename}: Polygon count exceeds {polygon_threshold}")
             else:
-                result_label.config(text=f"{filename}: Polygon count below {polygon_threshold}")    
+                result_label.config(text=f"{filename}: Polygon count below {polygon_threshold}")
+
+# Create main window
+root = tk.Tk()
+root.title("OBJ Polygon Count Checker")
+
+# Create and configure user interface elements
+label = tk.Label(root, text="Enter polygon count threshold:")
+label.pack()
+
+entry_threshold = tk.Entry(root)
+entry_threshold.pack()
+
+check_button = tk.Button(root, text="Check Files", command=process_files)
+check_button.pack()
+
+result_label = tk.Label(root, text="")
+result_label.pack()
+
+root.mainloop()
