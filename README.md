@@ -1,2 +1,3 @@
 # shape-checking
-3D model polygon counter with alert system
+
+This application is 3D model polygon counter. It calculates the number of polygons within an OBJ 
