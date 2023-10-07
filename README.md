@@ -1,5 +1,4 @@
-# shape-checking
-
+## shape-checking
 **OBJ File Polygon Indicator**
 
 This application is 3D model polygon counter. It calculates the number of polygons within an OBJ then confirms whether or not the file meets or exceeds the polygon threshold. The indicator requires the following libraries:
