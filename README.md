@@ -6,7 +6,7 @@ This application is 3D model polygon counter. It calculates the number of polygo
 ## [tkinter](https://docs.python.org/3/library/tkinter.html): Graphic User Interface
 > `python -m tkinter`
 
-## [PyWavefront]: OBJ File Reading
+## [PyWavefront](https://pypi.org/project/PyWavefront/): OBJ File Reading
 > `pip install PyWavefront`
 
 ## Core Application Functions
